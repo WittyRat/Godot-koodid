@@ -16,10 +16,5 @@ func _process(_delta):
 		var whatt_did_we_hit = $Aim.is_colliding()
 		$Aim/TargetDot.global_transform.origin = $Aim.get_collision_point()
 		$Aim/TargetDot.visible = true
-#		Muutuja.Itekst = "täissi sein"
-#		$m1911_finalFire/RootNode/AnimationPlayer.play("Fire")
-#		$AudioStreamPlayer3D.play()
-
-		
 	else:
 		$Aim/TargetDot.visible = false
